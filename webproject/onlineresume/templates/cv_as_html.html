@@ -31,7 +31,7 @@
     <div id="languages">
         {% if PDF_AVAILABLE %}
         <div>
-            | <a href="{% url print_as_pdf %}">{% trans "Download as PDF" %}</a>
+            | <a href="{% url "print_as_pdf" %}">{% trans "Download as PDF" %}</a>
         </div>
         {% endif %}
         {% get_current_language as L_CODE %}

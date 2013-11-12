@@ -57,7 +57,7 @@ class ExperienceItem(models.Model):
     title = models.CharField(max_length=255, verbose_name=_('Title'))
     subtitle = models.CharField(max_length=255,
                                 verbose_name=_('Subtitle'), blank=True)
-    url = models.URLField('URL', verify_exists=False, blank=True, null=True)
+    url = models.URLField('URL', blank=True, null=True)
     location = models.CharField(max_length=255, blank=True,
                                 verbose_name=_('Location'))
     description = models.TextField(verbose_name=_('Description'),
@@ -81,7 +81,7 @@ class LineItem(models.Model):
     __metaclass__ = TransMeta
 
     experience = models.ForeignKey(ExperienceItem, related_name="items")
-    url = models.URLField('URL', verify_exists=False, blank=True, null=True)
+    url = models.URLField('URL', blank=True, null=True)
     details = models.CharField(max_length=255, verbose_name=_('Details'))
 
     class Meta:
@@ -93,7 +93,7 @@ class Link(models.Model):
     person = models.ForeignKey(Person, related_name='links',
                                verbose_name=_('Person'))
     title = models.CharField(max_length=100, verbose_name=_("Title"))
-    url = models.URLField('URL', verify_exists=False)
+    url = models.URLField('URL')
     icon = models.ImageField(upload_to='icons',
                              help_text=_("A squared one is prefered"))
     order = models.IntegerField()
