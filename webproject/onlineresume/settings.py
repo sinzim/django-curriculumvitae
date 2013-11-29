@@ -49,6 +49,8 @@ ugettext = lambda s: s  # dummy ugettext function, as django's docs say
 LANGUAGES = (
     ('es', ugettext(u'Spanish')),
     ('en', ugettext(u'English')),
+    ('nb', ugettext(u'Norwegian')),
+
 )
 
 SITE_ID = 1

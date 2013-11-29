@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-29 08:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:13 models.py:9
+msgid "Name"
+msgstr "Navn"
+
+#: forms.py:14
+msgid "Email"
+msgstr "E-mail"
+
+#: forms.py:15
+msgid "Topic"
+msgstr "Emne"
+
+#: forms.py:16
+msgid "Message"
+msgstr "Bedskjed"
+
+#: models.py:12
+msgid "Styles"
+msgstr "Stil"
+
+#: models.py:19
+msgid "Top"
+msgstr "Topp"
+
+#: models.py:20
+msgid "Bottom"
+msgstr "Bunn"
+
+#: models.py:29
+msgid "Curriculum Vitae Style"
+msgstr "CV-stil"
+
+#: models.py:33
+msgid "Links Location"
+msgstr "Lenkeplassering"
+
+#: models.py:34
+msgid "Where static links will be located, if at least one is defined"
+msgstr "Hvor statiske lenker blir plasser om ivertfall én er definert"
+
+#: settings.py:51
+msgid "English"
+msgstr "Engelsk"
+
+#: settings.py:52
+msgid "Norwegian"
+msgstr "Norsk"
+
+#: templates/_links.html:8
+msgid "On the Web"
+msgstr "Nettressurser"
+
+#: templates/base.html:42
+msgid "PRESENT"
+msgstr "NÅTID"
+
+#: templates/base.html:81
+msgid "Please, configure your CV first!"
+msgstr "Konfigurer CVen din først"
+
+#: templates/base.html:82
+msgid "Go to admin page"
+msgstr "Gå til administrasjonssiden"
+
+#: templates/contact.html:16
+msgid "submit"
+msgstr "send"
+
+#: templates/contact.html:19
+msgid "Your message is being submitted"
+msgstr "Din bedksjed blir sendt"
+
+#: templates/cv_as_html.html:34
+msgid "Download as PDF"
+msgstr "Last ned som PDF"
+
+#: templates/cv_as_html.html:70
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/cv_as_pdf.html:31
+msgid "Page"
+msgstr "Side"
+
+#: templates/thankyou.html:2
+msgid "Thank You! You'll be answered as soon as possible"
+msgstr "Takk for din henvendelse! Du vil bli besvart så fort som mulig"
